@@ -3,9 +3,9 @@ import Swal from 'sweetalert2'
 
 let baseURL = ''
 if (process.env.NODE_ENV === "development") {
-  baseURL = 'http://localhost:3000/api'
+  baseURL = 'http://localhost:8080/'
 } else {
-  baseURL = 'https://wapd-backend.herokuapp.com/api'
+  baseURL = 'https://wapd-api.herokuapp.com/api'
 }
 
 export const axiosInstance = axios.create({ baseURL, withCredentials: true })
