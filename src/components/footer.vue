@@ -3,9 +3,10 @@
     <div class="container text-center text-md-left">
       <div class="row py-5">
         <div class="col-md-4 m-auto text-center justify-content-center">
-          <h5 class="font-weight-bold text-uppercase my-3">潮流資訊</h5>
+          <h5 class="font-weight-bold text-uppercase my-3">購買注意事項</h5>
           <hr />
-          <facebook />
+          <!-- <facebook /> -->
+          <p>本站無法線上下單購買商品，請前往FB粉絲團或加入官方LINE私訊購買</p>
         </div>
         <!-- Grid column -->
         <div class="col-md-4 mx-auto text-center">
@@ -23,11 +24,11 @@
                 <font-awesome-icon :icon="['fas', 'phone']" size="1x" />0988776554
               </p>
             </li>
-            <li>
+            <!-- <li>
               <p>
                 <font-awesome-icon :icon="['fas', 'envelope']" size="1x" />root@example.com
               </p>
-            </li>
+            </li> -->
           </ul>
         </div>
         <div class="col-md-4 text-center">
@@ -57,17 +58,17 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright text-center py-3">
+    <!-- <div class="footer-copyright text-center py-3">
       © 2019 Copyright:
       <span>Caesar & Vivian & Eason</span>
-    </div>
+    </div> -->
   </footer>
 </template>
 <script>
-import facebook from "./../components/facebook";
+// import facebook from "./../components/facebook";
 export default {
   components: {
-    facebook
+    // facebook
   }
 };
 </script>

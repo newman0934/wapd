@@ -43,7 +43,7 @@
                     role="button"
                     aria-haspopup="true"
                     aria-expanded="false"
-                  >購物商城</a>
+                  >商品資訊</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <router-link
                       class="dropdown-item"
@@ -68,38 +68,38 @@
                 </li>
                 <template v-if="!isAuthenticated || !currentUser.role === 'admin'">
                   <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
-                    <router-link class="nav-link" :to="{name:'signIn'}">Login / LogUp</router-link>
+                    <router-link class="nav-link" :to="{name:'signIn'}">管理者登入</router-link>
                   </li>
                 </template>
-                <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
+                <!-- <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
                   <router-link class="nav-link" :to="{name: 'cart', params:{id: currentUser.id}}">
                     <font-awesome-icon icon="shopping-cart" size="2x" />
                   </router-link>
-                </li>
+                </li> -->
                 <template v-if="isAuthenticated || currentUser.role === 'admin'">
                   <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
                     <a href="#" class="nav-link my-2 my-sm-0" @click="logout">登出</a>
                   </li>
-                  <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
+                  <!-- <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
                     <router-link
                       class="nav-link"
                       :to="{name: 'orders', params:{id: currentUser.id}}"
                     >
                       <font-awesome-icon icon="user" size="2x" />
                     </router-link>
-                  </li>
-                  <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
+                  </li> -->
+                  <!-- <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
                     <router-link
                       class="nav-link"
                       :to="{name: 'userWishList', params:{id: currentUser.id}}"
                     >
                       <font-awesome-icon icon="heart" size="2x" />
                     </router-link>
-                  </li>
+                  </li> -->
                 </template>
                 <template v-if="currentUser.role === 'admin'">
                   <li class="nav-item pl-4 my-auto pl-md-0 ml-0 ml-md-4">
-                    <router-link class="nav-link" :to="{name: 'adminOrders'}">
+                    <router-link class="nav-link" :to="{name: 'adminProducts'}">
                       <font-awesome-icon icon="user-cog" size="2x" />
                     </router-link>
                   </li>

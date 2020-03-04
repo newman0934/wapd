@@ -54,16 +54,16 @@ import VueLoadImage from "vue-load-image";
 const carouselData = [
   {
     id: 0,
-    image: "https://i.imgur.com/jlam41Q.jpg"
+    image: "https://i.imgur.com/FwrmOep.jpg"
   },
-  {
-    id: 1,
-    image: "https://i.imgur.com/mTbHOS8.jpg"
-  },
-  {
-    id: 2,
-    image: "https://i.imgur.com/BFEOLmx.jpg"
-  }
+  // {
+  //   id: 1,
+  //   image: "https://i.imgur.com/mTbHOS8.jpg"
+  // },
+  // {
+  //   id: 2,
+  //   image: "https://i.imgur.com/BFEOLmx.jpg"
+  // }
 ];
 export default {
   components: {

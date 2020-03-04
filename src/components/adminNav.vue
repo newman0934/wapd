@@ -4,18 +4,18 @@
     <li class="nav-item">
       <router-link :to="{name:'adminProducts'}" class="nav-link">商品</router-link>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <router-link :to="{name:'adminOrders'}" class="nav-link">訂單</router-link>
-    </li>
-    <li class="nav-item">
+    </li> -->
+    <!-- <li class="nav-item">
       <router-link :to="{name:'adminUsers'}" class="nav-link">會員</router-link>
-    </li>
+    </li> -->
     <li class="nav-item">
       <router-link :to="{name:'adminCategories'}" class="nav-link">類別</router-link>
     </li>
-        <li class="nav-item">
+    <!--     <li class="nav-item">
       <router-link :to="{name:'adminCoupon'}" class="nav-link">優惠碼</router-link>
-    </li>
+    </li> -->
   </ul>
 </div>
 </template>

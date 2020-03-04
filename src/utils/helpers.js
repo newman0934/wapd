@@ -3,7 +3,7 @@ import Swal from 'sweetalert2'
 
 let baseURL = ''
 if (process.env.NODE_ENV === "development") {
-  baseURL = 'http://localhost:8080/'
+  baseURL = 'https://wapd-api.herokuapp.com/api'
 } else {
   baseURL = 'https://wapd-api.herokuapp.com/api'
 }
