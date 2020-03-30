@@ -2,7 +2,7 @@
   <footer class="page-footer font-small indigo">
     <div class="container text-center text-md-left">
       <div class="row py-5">
-        <div class="col-md-4 m-auto text-center justify-content-center">
+        <div class="col-md-4 mx-auto text-center justify-content-center">
           <h5 class="font-weight-bold text-uppercase my-3">購買注意事項</h5>
           <hr />
           <!-- <facebook /> -->
@@ -21,7 +21,12 @@
             </li>
             <li>
               <p>
-                <font-awesome-icon :icon="['fas', 'phone']" size="1x" />0988776554
+                <font-awesome-icon :icon="['fas', 'phone']" size="1x" /> Dream man (04)23937584
+              </p>
+            </li>
+                        <li>
+              <p>
+                <font-awesome-icon :icon="['fas', 'phone']" size="1x" /> Apex（04）22254702
               </p>
             </li>
             <!-- <li>
@@ -35,13 +40,13 @@
           <h5 class="font-weight-bold text-uppercase my-3">社群連結</h5>
           <hr />
           <div class="row justify-content-center">
-            <div>
+            <!-- <div>
               <a class="mr-4" href="#">
                 <font-awesome-icon :icon="['fab', 'line']" size="3x" />
               </a>
-            </div>
+            </div> -->
             <div>
-              <a class="mr-4" href="#">
+              <a class="mr-4" href="https://www.instagram.com/dreamman0831/?hl=zh-tw">
                 <font-awesome-icon :icon="['fab', 'instagram']" size="3x" />
               </a>
             </div>

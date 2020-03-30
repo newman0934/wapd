@@ -83,8 +83,8 @@
             <img src="./../static/apex1.jpg" class="card-img-top" alt="apex_dandy" />
             <div class="card-body">
               <h5 class="card-title">APEX_DANDY</h5>
-              <p class="card-text">地址：台中市北區三民路三段106巷(G2000旁巷子口)</p>
-              <p class="card-text">營業時間：下午3:00 - 凌晨11:00</p>
+              <p class="card-text">地址：台中市北區三民路三段106巷</p>
+              <p class="card-text">營業時間：12:00 - 23:00</p>
               <a
                 href="https://www.facebook.com/KGT-小庵的店-405388429508237/"
                 class="btn btn-primary"
@@ -98,7 +98,7 @@
             <div class="card-body">
               <h5 class="card-title">DREAM MAN</h5>
               <p class="card-text">地址：台中市太平區太順路403號</p>
-              <p class="card-text">營業時間：上午11:00 - 下午9:00</p>
+              <p class="card-text">營業時間：11:00 - 21:00</p>
 
               <a
                 href="https://www.facebook.com/Dream-Man夢幻男人-111226990294129/"

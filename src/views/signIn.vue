@@ -10,7 +10,7 @@
       </div>
       <div class="card-body">
         <div class="row">
-          <div class="col-md-6 border-right">
+          <div class="col-md-12 border-right">
             <form class="w-100" @submit.prevent.stop="handleSubmitSignIn">
               <h4>登入</h4>
               <ValidationProvider rules="required|email" v-slot="{ errors }">
@@ -53,11 +53,11 @@
                 :disabled="isProcessing"
               >登入</button>
             </form>
-            <div class="text-center mb-3">
+            <!-- <div class="text-center mb-3">
               <router-link :to="{name:'userForgetPassword'}">忘記密碼</router-link>
-            </div>
+            </div> -->
           </div>
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <form class="w-100" @submit.prevent.stop="handleSubmitSignUp">
               <h4>註冊</h4>
               <ValidationProvider rules="required|email" v-slot="{ errors }">
@@ -118,7 +118,7 @@
                 :disabled="isProcessing"
               >註冊</button>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
