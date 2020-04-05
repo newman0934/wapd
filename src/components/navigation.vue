@@ -5,7 +5,7 @@
         <div class="col-12">
           <nav class="navbar navbar-expand-md">
             <router-link class="navbar-brand col-2" :to="{name:'index'}">
-              <img src="https://i.imgur.com/zdVdU4x.png" alt="logo" style="max-width:100px" />
+              <img src="https://i.imgur.com/EgWXuwm.png" alt="logo" style="max-width:100px" />
             </router-link>
 
             <button
