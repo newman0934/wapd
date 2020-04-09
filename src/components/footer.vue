@@ -3,10 +3,13 @@
     <div class="container text-center text-md-left">
       <div class="row py-5">
         <div class="col-md-4 mx-auto text-center justify-content-center">
-          <h5 class="font-weight-bold text-uppercase my-3">購買注意事項</h5>
+          <h5 class="font-weight-bold text-uppercase my-3">購買方式解說</h5>
           <hr />
           <!-- <facebook /> -->
-          <p>本站無法線上下單購買商品，請前往FB粉絲團或加入官方LINE私訊購買</p>
+          <p class="text-left">WAP-D官網僅供展示 購買請前往社群連結，洽詢線上客服及門市</p>
+          <p class="text-left">為了提供您最好的服務品質，建議可選擇【門市預約】。
+但需要預約時間，以便提供造型服務、量身修改等服務。
+(預約時間造型師24H內會與您聯繫，請留意來電)</p>
         </div>
         <!-- Grid column -->
         <div class="col-md-4 mx-auto text-center">
